@@ -28,8 +28,8 @@ Ready to dive in? Let's get this party started!
    First things first, grab a copy of this awesome project:
 
    ```bash
-   git clone https://github.com/yourusername/fastapi-postgres-starter-kit.git
-   cd fastapi-postgres-starter-kit
+   git clone https://github.com/MinhPhuPham/native_trip_server.git
+   cd native_trip_server
    ```
 
 2. **Setup Your Environment**
@@ -73,43 +73,3 @@ docker-compose exec backend pytest
 ```
 
 Testing has never been so easy. Go on, give yourself a pat on the back!
-
-## 🎓 Development Setup (For the Rebels)
-
-If you're feeling adventurous and want to run this project outside of Docker (we salute you!), here's what you need to do:
-
-1. **Install Dependencies**
-
-   Poetry to the rescue:
-
-   ```bash
-   poetry install
-   ```
-
-2. **Run the Application**
-
-   Fire up the app with Uvicorn:
-
-   ```bash
-   uvicorn app.main:app --reload --host 0.0.0.0 --port 4000
-   ```
-
-You're all set to code like a rockstar. 🎸
-
-## 🌍 Deployment
-
-Ready to take your app to the world? You can use this same Docker setup for production, or deploy it to any platform that loves containers as much as we do. Just make sure those environment variables are production-ready!
-
-## 🙌 Contributing
-
-Have an idea for an improvement? Spotted a bug? Or maybe you just want to say hi? We're all ears! Feel free to open an issue or submit a pull request. We'd love to have you contribute!
-
-## 📜 License
-
-This project is licensed under the MIT License.
-
-## 🎉 Acknowledgements
-
-This project is inspired by the full-stack-fastapi-postgresql template created by the legendary Sebastián Ramírez. Big thanks to the FastAPI and Docker communities for their amazing work and support.
-
-Now go ahead and build something awesome! 🚀✨
